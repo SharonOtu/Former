@@ -30,7 +30,9 @@ ArrayList<Form> lista = new ArrayList<>();
         System.out.println("3. Triangel");
         System.out.println("4. Cirkel");
         System.out.println("0. Avsluta");
-        
+      System.out.println ("Vänligen ane ditt val: ");
+
+        val = input.nextInt();
     }
        
         
@@ -54,3 +56,4 @@ ArrayList<Form> lista = new ArrayList<>();
      }
     }
 }
+
