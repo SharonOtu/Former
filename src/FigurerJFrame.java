@@ -12,8 +12,9 @@ public class FigurerJFrame extends javax.swing.JFrame {
     /**
      * Creates new form FigurerJFrame
      */
-    public FigurerJFrame() {
+    public FigurerJFrame(ArrayList<Form> former) {
         initComponents();
+        DrawPanel panel = new DrawPanel
     }
 
     /**
