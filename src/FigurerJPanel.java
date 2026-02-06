@@ -9,13 +9,21 @@
  */
 public class FigurerJPanel extends javax.swing.JPanel {
 
+     ArrayList<Form> former;
     /**
      * Creates new form FigurerJPanel
      */
-    public FigurerJPanel() {
+    public FigurerJPanel(ArrayList<Form> f) {
+        former = f;
         initComponents();
     }
 
+    private void paintComponent (Graphics g) {
+        super.paintComponent(g);
+        for (Form f: former) {
+            f.draw.g;
+        }
+    }
     /**
      * This method is called from within the constructor to initialize the form.
      * WARNING: Do NOT modify this code. The content of this method is always
